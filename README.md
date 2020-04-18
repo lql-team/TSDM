@@ -13,7 +13,7 @@ a RGB-D tracker base on CNN with using depth information
 * Res20.pth: retrained SiamRPN++ model (works with M-g)
 * modelRes: not retrained SiamRPN++ model
 * High-Low-two.pth: D-r model
-* link: https://pan.baidu.com/s/1Z2c9SymPIRTA_-4p5W1hHA pin:faon
+* link: https://pan.baidu.com/s/1Z2c9SymPIRTA_-4p5W1hHA     pin: faon
 
 
 ### Test
