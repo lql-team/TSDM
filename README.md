@@ -10,10 +10,10 @@ a RGB-D tracker base on CNN with using depth information
 * PTB dataset  http://tracking.cs.princeton.edu/dataset.html
 
 ### Requirment models
-Res20.pth: retrained SiamRPN++ model (works with M-g)
-modelRes: not retrained SiamRPN++ model
-High-Low-two.pth: D-r model
-link: https://pan.baidu.com/s/1Z2c9SymPIRTA_-4p5W1hHA pin:faon
+* Res20.pth: retrained SiamRPN++ model (works with M-g)
+* modelRes: not retrained SiamRPN++ model
+* High-Low-two.pth: D-r model
+* link: https://pan.baidu.com/s/1Z2c9SymPIRTA_-4p5W1hHA pin:faon
 
 
 ### Test
