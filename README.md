@@ -22,7 +22,7 @@ Google Drive: https://drive.google.com/drive/folders/17EN9IU-GOhFQt7middHVaNQFwW
 * VOT-RGBD2019: www.votchallenge.net/
 * PTB dataset:  http://tracking.cs.princeton.edu/dataset.html
 * demo dataset:  
-Please put three datasets above into "data_and_result/test_data/". If you only run demo, you can only download demo dataset and put it into data_and_result/test_data/
+Please put three datasets above into "data_and_result/test_data/". If you only run demo, you can only download demo dataset and put it into "data_and_result/test_data/"
 
 
 ### Test demo
