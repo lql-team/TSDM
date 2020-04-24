@@ -1,6 +1,6 @@
 # TSDM
-A RGB-D tracker base on CNN with using depth information.
-The code of TSDM is simple here.
+A RGB-D tracker base on CNN with using depth information.  
+The code is simple here.
 
 ### Requirment Libs
 * Conda with Python 3.7.
@@ -21,10 +21,11 @@ please put the three models into data_and_result/weight.
 ### Requirment datasets
 * VOT-RGBD2019: www.votchallenge.net/
 * PTB dataset:  http://tracking.cs.princeton.edu/dataset.html
-* demo dataset
+* demo dataset  
 please put three datasets above into data_and_result/test_data/  
 If you only run demo, you can only download demo dataset and put it into data_and_result/test_data/
-                              
+
+
 ### Test demo
 If you wang to run the demo, please run "python3 test.py --sequence n". Here, n ranges {1,2,3}.
 
