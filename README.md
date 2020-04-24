@@ -14,8 +14,9 @@ The code of TSDM is simple here.
 * High-Low-two.pth: D-r model
 link of three models above:  
 BAIDU YUN:    https://pan.baidu.com/s/1Z2c9SymPIRTA_-4p5W1hHA     pin: faon  
-Google Drive: https://drive.google.com/drive/folders/17EN9IU-GOhFQt7middHVaNQFwWj7U8MP?usp=sharing
+Google Drive: https://drive.google.com/drive/folders/17EN9IU-GOhFQt7middHVaNQFwWj7U8MP?usp=sharing  
 please put the three models into data_and_result/weight.
+
 
 ### Requirment datasets
 * VOT-RGBD2019: www.votchallenge.net/
