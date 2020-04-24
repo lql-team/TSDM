@@ -23,9 +23,8 @@ Google Drive: https://drive.google.com/drive/folders/17EN9IU-GOhFQt7middHVaNQFwW
 * please put three datasets above into data_and_result/test_data/  
 * If you only run demo, you can only download demo dataset and put it into data_and_result/test_data/
                               
-### Test
-Please run test.py --sequence n  
-test_data includes three sequence(video), so n ranges {1,2,3}.
+### Test demo
+If you wang to run the demo, please run test.py --sequence n  
 
 ### Others
 I will always update and maintain this repository.
