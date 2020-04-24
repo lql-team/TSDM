@@ -28,5 +28,8 @@ Please put three datasets above into "data_and_result/test_data/". If you only r
 ### Test demo
 If you wang to run the demo, please run "python3 test.py --sequence n". Here, n ranges {1,2,3}.
 
+### Acknowlege
+Thanks to SiamRPN++, it is the core of our model. arxiv.org/pdf/1812.11703.pdf
+
 ### Others
 I will always update and maintain this repository.
