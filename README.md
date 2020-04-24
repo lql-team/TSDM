@@ -20,11 +20,12 @@ Google Drive: https://drive.google.com/drive/folders/17EN9IU-GOhFQt7middHVaNQFwW
 * VOT-RGBD2019: www.votchallenge.net/
 * PTB dataset:  http://tracking.cs.princeton.edu/dataset.html
 * demo dataset
-* please the three datasets into data_and_result/test_data/  
+* please put three datasets above into data_and_result/test_data/  
 * If you only run demo, you can only download demo dataset and put it into data_and_result/test_data/
                               
 ### Test
-Please run test.py after you have all the Requirment Libs
+Please run test.py --sequence n  
+test_data includes three sequence(video), so n ranges {1,2,3}.
 
 ### Others
 I will always update and maintain this repository.
