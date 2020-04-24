@@ -6,8 +6,6 @@ a RGB-D tracker base on CNN with using depth information
 * Nvidia GPU.
 * PyTorch 1.0
 * OpenCV
-* VOT-RGBD2019 www.votchallenge.net/
-* PTB dataset  http://tracking.cs.princeton.edu/dataset.html
 
 ### Requirment models
 * Res20.pth: retrained SiamRPN++ model (works with M-g)
@@ -16,8 +14,15 @@ a RGB-D tracker base on CNN with using depth information
 * link of three models above:  
 BAIDU YUN:    https://pan.baidu.com/s/1Z2c9SymPIRTA_-4p5W1hHA     pin: faon  
 Google Drive: https://drive.google.com/drive/folders/17EN9IU-GOhFQt7middHVaNQFwWj7U8MP?usp=sharing
-                              
+* please put the three models into data_and_result/weight.
 
+### Requirment datasets
+* VOT-RGBD2019: www.votchallenge.net/
+* PTB dataset:  http://tracking.cs.princeton.edu/dataset.html
+* demo dataset
+* please the three datasets into data_and_result/test_data/  
+* If you only run demo, you can only download demo dataset and put it into data_and_result/test_data/
+                              
 ### Test
 Please run test.py after you have all the Requirment Libs
 
