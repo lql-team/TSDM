@@ -3,10 +3,10 @@ import torch
 import torch.nn.functional as F
 import cv2
 
-from mypysot.models.SiamRPN.SiamNetMob import MySiamRPNMob
-from mypysot.tools.anchor import Anchors
-from mypysot.tools.bbox import get_axis_aligned_bbox
-from mypysot.tools.model_load import load_pretrain
+from models.SiamRPN.SiamNetMob import MySiamRPNMob
+from tools.anchor import Anchors
+from tools.bbox import get_axis_aligned_bbox
+from tools.model_load import load_pretrain
 
 PENALTY_K = 0.05
 WINDOW_INFLUENCE = 0.28

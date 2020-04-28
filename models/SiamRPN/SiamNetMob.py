@@ -1,11 +1,10 @@
 import torch
 import torch.nn as nn
 import sys
-sys.path.append("/home/guo/zpy/Mypysot")
 
-from mypysot.models.SiamRPN.backbone.mobile_v2 import MobileNetV2
-from mypysot.models.SiamRPN.neck import AdjustAllLayer
-from mypysot.models.SiamRPN.rpn import MultiRPN
+from models.SiamRPN.backbone.mobile_v2 import MobileNetV2
+from models.SiamRPN.neck import AdjustAllLayer
+from models.SiamRPN.rpn import MultiRPN
 
 class MySiamRPNMob(nn.Module):
     def __init__(self):

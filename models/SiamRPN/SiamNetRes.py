@@ -1,11 +1,10 @@
 import torch
 import torch.nn as nn
 import sys
-sys.path.append("/home/guo/zpy/Mypysot")
 
-from mypysot.models.SiamRPN.backbone.resnet_atrous import ResNet50
-from mypysot.models.SiamRPN.neck import AdjustAllLayer
-from mypysot.models.SiamRPN.rpn import MultiRPN
+from models.SiamRPN.backbone.resnet_atrous import ResNet50
+from models.SiamRPN.neck import AdjustAllLayer
+from models.SiamRPN.rpn import MultiRPN
 
 class MySiamRPNRes(nn.Module):
     def __init__(self):

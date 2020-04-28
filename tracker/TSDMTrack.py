@@ -3,16 +3,16 @@ import torch
 import cv2
 import time
 
-from mypysot.tracker.SiamResTrack import MySiamRPNResTracker
-from mypysot.tracker.SiamMobTrack import MySiamRPNMobTracker
-from mypysot.tracker.SiamResForMaskTrack import MySiamRPNResForMaskTracker
-from mypysot.tracker.SiamMobForMaskTrack import MySiamRPNMobForMaskTracker
-from mypysot.models.SiamRPN.SiamNetRes import MySiamRPNRes
-from mypysot.models.SiamRPN.SiamNetMob import MySiamRPNMob
-from mypysot.tools.model_load import load_pretrain
-from mypysot.models.Depth_refiner.data_loader import RGBDDataLoader
-from mypysot.models.Depth_refiner.net import FuseNet
-from mypysot.models.Mask_generator.Depth_mask import Depth_mask
+from tracker.SiamResTrack import MySiamRPNResTracker
+from tracker.SiamMobTrack import MySiamRPNMobTracker
+from tracker.SiamResForMaskTrack import MySiamRPNResForMaskTracker
+from tracker.SiamMobForMaskTrack import MySiamRPNMobForMaskTracker
+from models.SiamRPN.SiamNetRes import MySiamRPNRes
+from models.SiamRPN.SiamNetMob import MySiamRPNMob
+from tools.model_load import load_pretrain
+from models.Depth_refiner.data_loader import RGBDDataLoader
+from models.Depth_refiner.net import FuseNet
+from models.Mask_generator.Depth_mask import Depth_mask
 class TSDMTracker():
     def __init__(self, SiamRes_model_path, SiamMask_model_path, Dr_model_path, image_rgb, image_depth, region):
         #M-g

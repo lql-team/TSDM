@@ -3,8 +3,8 @@ import torch.nn as nn
 import sys
 sys.path.append("/home/guo/zpy/Mypysot")
 
-from mypysot.models.SiamRPN.backbone.alexnet import AlexNetLegacy
-from mypysot.models.SiamRPN.rpn import DepthwiseRPN
+from models.SiamRPN.backbone.alexnet import AlexNetLegacy
+from models.SiamRPN.rpn import DepthwiseRPN
 
 class MySiamRPNAlex(nn.Module):
     def __init__(self):
